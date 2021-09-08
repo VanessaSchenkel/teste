@@ -22,8 +22,8 @@ title: Jéferson Campos Nobre
 email: jcnobre@inf.ufrgs.br
 description: >- # this means to ignore newlines until "baseurl:"
   Information about his professional activities, research and projects, publications and press
-baseurl: "/teste.github.io" # the subpath of your site, e.g. /blog
-url: "https://vanessaschenkel.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/teste.github.io/" # the subpath of your site, e.g. /blog
+url: "https://vanessaschenkel.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jcnobre
 linkedin_username:  Jéferson Nobre
 
