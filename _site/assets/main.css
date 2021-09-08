@@ -113,7 +113,13 @@ table td { border: 1px solid #e8e8e8; }
         }
 
 /** Site footer */
-.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+.site-footer {     
+    border-top: 1px solid #e8e8e8;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    align-items: center;}
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
@@ -308,6 +314,8 @@ table td { border: 1px solid #e8e8e8; }
     padding-left: 20px;
 }
 
+
+
 .subtitle-research {
     font-size: larger;
     padding-bottom: 20px;
@@ -324,4 +332,30 @@ b {
 
 li {
     padding-bottom: 20px;
+}
+
+.contact {
+    color: gray;
+    margin: 0;
+    font-size: 15px;
+}
+
+.item-footer {
+    padding-left: 40px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 880) {
+    .paragraph-with-pic {
+        display: row;
+    }
+
+    .paragraph-with-pic img {
+        height: 180px;
+        width: 600px;
+    }
+
+    .paragraph-with-pic p {
+        padding: 0;
+    }
 }
