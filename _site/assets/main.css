@@ -146,7 +146,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-list-heading { font-size: 28px; }
 
-.post-list { margin-left: 0; list-style: none; }
+.post-list { margin-left: 0; list-style: none; text-align: justify;}
 
 .post-list > li { margin-bottom: 30px; }
 
