@@ -23,9 +23,9 @@ email: jcnobre@inf.ufrgs.br
 description: >- # this means to ignore newlines until "baseurl:"
   Information about his professional activities, research and projects, publications and press
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vanessaschenkel.github.io/teste.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jcnobre
-linkedin_username:  jekyll
+linkedin_username:  Jéferson Nobre
 
 # Build settings
 theme: minima
