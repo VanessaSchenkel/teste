@@ -429,6 +429,13 @@ html {
          width: 250px;
     }
 }
+
+@media only screen and (min-width: 720px) {
+ .site-footer {
+        background-color: red;
+    }
+ 
+}
  @media screen and (min-width: 680px) {
      .paragraph-with-pic {
          display: flex;
