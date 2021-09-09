@@ -125,7 +125,7 @@ table td { border: 1px solid #e8e8e8; }
     position: fixed;
     bottom: 10px;
     right: 10px;
-    color: white;
+    background-color: white;
 }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
