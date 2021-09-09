@@ -375,7 +375,6 @@
 }
  .paragraph-with-pic {
      display: flex;
-     padding-top: 20px;
 }
  .paragraph-with-pic img {
      height: 160px;
@@ -399,6 +398,10 @@
      margin-left: auto;
      padding-right: 30px;
      padding-left: 30px;
+}
+
+.home {
+ padding-top: 60px;
 }
  @media screen and (max-width: 890px) {
      .nav {
