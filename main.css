@@ -303,6 +303,7 @@ table td { border: 1px solid #e8e8e8; }
 
 .paragraph-with-pic {
     display: flex;
+    padding-top: 60px;
 }
 
 .paragraph-with-pic img {
