@@ -26,6 +26,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: jcnobre
 linkedin_username:  Jéferson Nobre
 
+baseurl: /teste/
+url: https://vanessaschenkel.github.io
+
 # Build settings
 theme: minima
 plugins:
