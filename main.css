@@ -114,7 +114,7 @@ html {
      padding-top: 70px;
      padding-left: 30px;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .wrapper {
          max-width: -webkit-calc(800px - (30px));
          max-width: calc(800px - (30px));
@@ -202,7 +202,7 @@ html {
  .site-nav .page-link:not(:last-child) {
      margin-right: 20px;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .site-nav {
          position: absolute;
          top: 9px;
@@ -293,7 +293,7 @@ html {
      width: -webkit-calc(45% - (30px / 2));
      width: calc(45% - (30px / 2));
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .footer-col-1, .footer-col-2 {
          width: -webkit-calc(50% - (30px / 2));
          width: calc(50% - (30px / 2));
@@ -303,7 +303,7 @@ html {
          width: calc(100% - (30px / 2));
     }
 }
- @media screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
      .footer-col {
          float: none;
          width: -webkit-calc(100% - (30px / 2));
@@ -346,7 +346,7 @@ html {
      letter-spacing: -1px;
      line-height: 1;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .post-title {
          font-size: 36px;
     }
@@ -357,7 +357,7 @@ html {
  .post-content h2 {
      font-size: 32px;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .post-content h2 {
          font-size: 28px;
     }
@@ -365,7 +365,7 @@ html {
  .post-content h3 {
      font-size: 26px;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .post-content h3 {
          font-size: 22px;
     }
@@ -373,7 +373,7 @@ html {
  .post-content h4 {
      font-size: 20px;
 }
- @media screen and (max-width: 800px) {
+ @media only screen and (max-width: 800px) {
      .post-content h4 {
          font-size: 18px;
     }
@@ -408,7 +408,7 @@ html {
 .home {
  padding-top: 80px;
 }
- @media screen and (max-width: 890px) {
+ @media only screen and (max-width: 890px) {
      .nav {
          max-width: -webkit-calc(800px - (30px));
          max-width: calc(800px - (30px));
@@ -423,20 +423,13 @@ html {
      padding-left: 40px;
      padding-right: 10px;
 }
- @media screen and (max-width: 880px) {
+ @media only screen and (max-width: 880px) {
      .paragraph-with-pic img {
          height: 120px;
          width: 250px;
     }
 }
-
-@media only screen and (max-width: 720px) {
- .site-footer {
-        background-color: red;
-    }
- 
-}
- @media screen and (min-width: 680px) {
+ @media only screen and (min-width: 680px) {
      .paragraph-with-pic {
          display: flex;
          flex-direction: column;
