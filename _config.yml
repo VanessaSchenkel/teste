@@ -55,9 +55,6 @@ exclude:
     - LICENSE
     - README.md
     
- header_pages:
-  - press.html
-  - portfolio.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
