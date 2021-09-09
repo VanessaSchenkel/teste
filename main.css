@@ -211,6 +211,9 @@ html {
          border: 1px solid #e8e8e8;
          border-radius: 5px;
          text-align: right;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
     }
      .site-nav label[for="nav-trigger"] {
          display: block;
