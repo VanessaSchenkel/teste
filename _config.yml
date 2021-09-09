@@ -27,10 +27,6 @@ url: "https://vanessaschenkel.github.io" # the base hostname & protocol for your
 twitter_username: jcnobre
 linkedin_username:  Jéferson Nobre
 
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
 
 domain: vanessaschenkel.github.io     # if you want to force HTTPS, put down the domain without the http: e.g. example.com
 url: https://vanessaschenkel.github.io # the base hostname & protocol for your site, e.g. http://example.com
