@@ -32,6 +32,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+domain: vanessaschenkel.github.io     # if you want to force HTTPS, put down the domain without the http: e.g. example.com
+url: https://vanessaschenkel.github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: /teste.github.io/ 
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
