@@ -36,6 +36,28 @@ domain: vanessaschenkel.github.io     # if you want to force HTTPS, put down the
 url: https://vanessaschenkel.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /teste.github.io/ 
 
+show_excerpts: true
+
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - _pages/frontpage.md
+  - _pages/about.md
+  - _pages/archive.md
+
+include:
+    - _pages
+
+exclude: 
+    - .gitignore
+    - docker-compose.yml
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
