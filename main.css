@@ -114,13 +114,29 @@ table td { border: 1px solid #e8e8e8; }
         }
 
 /** Site footer */
-.site-footer {     
+.site-footer {
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+.site-footer{
     border-top: 1px solid #e8e8e8;
     padding: 10px 0;
     display: flex;
     justify-content: flex-end;
     font-size: 14px;
-    align-items: center;}
+    align-items: center;
+    }
+}
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
