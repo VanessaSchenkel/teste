@@ -106,7 +106,7 @@
      margin-right: auto;
      margin-left: auto;
      padding-right: 30px;
-     padding-top: 50px;
+     padding-top: 70px;
      padding-left: 30px;
 }
  @media screen and (max-width: 800px) {
@@ -375,7 +375,7 @@
 }
  .paragraph-with-pic {
      display: flex;
-     padding-top: 60px;
+     padding-top: 20px;
 }
  .paragraph-with-pic img {
      height: 160px;
