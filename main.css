@@ -429,7 +429,7 @@ html {
          width: 250px;
     }
 }
- @media screen and (max-width: 680px) {
+ @media screen and (min-width: 680px) {
      .paragraph-with-pic {
          display: flex;
          flex-direction: column;
