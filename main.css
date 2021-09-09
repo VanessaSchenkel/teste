@@ -450,4 +450,12 @@ html {
          font-size: 14px;
          align-items: center;
     }
+  
+  .site-nav input:checked ~ .trigger {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 13px;
+    left: 0;
+    width: 100%;
+  }
 }
